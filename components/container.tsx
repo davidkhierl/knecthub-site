@@ -11,7 +11,7 @@ const Container = forwardRef<ContainerProps, "div">((props, ref) => (
     maxW={1680}
     w="100%"
     mx="auto"
-    px={4}
+    px={8}
     {...props}
   />
 ));
