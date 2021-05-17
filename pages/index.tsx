@@ -31,7 +31,12 @@ export default function Home() {
               />
             </a>
           </Link>
-          <Button as="a" variant="outline-yellow" size="lg" href="#" ml={8}>
+          <Button
+            as="a"
+            variant="outline-yellow"
+            size="lg"
+            href="https://app.knecthub.com/signin"
+            ml={8}>
             SIGN IN
           </Button>
         </Box>
@@ -42,7 +47,12 @@ export default function Home() {
               worldwide.
             </Heading>
             <Text fontSize="md" color="white" mt={6}></Text>
-            <Button as="a" variant="solid-yellow" size="lg" href="#" mt={8}>
+            <Button
+              as="a"
+              variant="solid-yellow"
+              size="lg"
+              href="https://app.knecthub.com/signin"
+              mt={8}>
               SIGN UP FOR FREE NOW
             </Button>
           </Box>
